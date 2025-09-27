@@ -1,5 +1,3 @@
-# Number_Guess_Game
-A simple C++ number guessing game playable in the terminal.
 # 🎯 Number Guessing Game in C++
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/SwapnilHadage/Number_Guess_Game?color=blue)
@@ -10,14 +8,17 @@ A simple C++ number guessing game playable in the terminal.
 ---
 
 ## 📖 About the Project
-This is my **very first C++ project** 🎉 — a simple yet fun **Number Guessing Game** you can play in your terminal.  
+This is my **very first C++ project** 🎉 — a simple and fun **Number Guessing Game** playable in the terminal.
 
-The program randomly selects a number, and the player has to guess it. After each guess, the game gives a hint:  
-- `"Too high!"` if the guess is larger than the number.  
-- `"Too low!"` if the guess is smaller than the number.  
-- `"Congratulations!"` when you guess correctly.  
+The game works as follows:  
+1. The program randomly selects a number within a range.  
+2. The player attempts to guess the number.  
+3. After each guess, the game provides feedback:  
+   - `"Too high!"` if the guess is larger than the number.  
+   - `"Too low!"` if the guess is smaller than the number.  
+   - `"Congratulations!"` when the correct number is guessed.
 
-I built this project to **practice basic C++ concepts** such as:
+This project helped me practice **basic C++ concepts** including:
 - Input/Output
 - Loops
 - Conditional statements
@@ -26,17 +27,17 @@ I built this project to **practice basic C++ concepts** such as:
 ---
 
 ## 🚀 Features
-✅ Random number generation  
-✅ Unlimited attempts until the correct guess  
-✅ Feedback after each guess  
-✅ Simple and fun to play in the terminal  
-✅ Beginner-friendly source code  
+- ✅ Random number generation  
+- ✅ Unlimited attempts until the correct guess  
+- ✅ Feedback after each guess  
+- ✅ Beginner-friendly and easy to understand  
+- ✅ Playable in any terminal  
 
 ---
 
 ## 🛠️ Technologies Used
-- **C++** (standard C++ libraries, no external dependencies)
-- **g++ / MinGW / clang++** (any C++ compiler works)
+- **C++** (standard libraries, no external dependencies)  
+- Compatible with **g++**, **MinGW**, **clang++**, or any standard C++ compiler
 
 ---
 
@@ -44,5 +45,27 @@ I built this project to **practice basic C++ concepts** such as:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/SwapnilHadage/Number_Guessing_Game.git
-cd number-guessing-game
+git clone https://github.com/SwapnilHadage/Number_Guess_Game.git
+cd Number_Guess_Game
+
+2. Compile the Program
+g++ noGuess.cpp -o noGuess
+
+
+3. Run the Game
+./noGuess   # On Linux/macOS
+noGuess.exe # On Windows
+
+🎮 How to Play
+
+Enter your guess when prompted.
+
+The game will tell you if your guess is too high, too low, or correct.
+
+Keep guessing until you find the correct number.
+
+📄 License
+
+This project is licensed under the MIT License.
+
+Made with ❤️ by Swapnil Hadage
