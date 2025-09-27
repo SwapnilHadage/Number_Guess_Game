@@ -47,7 +47,7 @@ This project helped me practice **basic C++ concepts** including:
 ```bash
 git clone https://github.com/SwapnilHadage/Number_Guess_Game.git
 cd Number_Guess_Game
-
+---
 ### **2. Compile the Program**
 g++ noGuess.cpp -o noGuess
 
