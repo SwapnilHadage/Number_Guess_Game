@@ -48,15 +48,14 @@ This project helped me practice **basic C++ concepts** including:
 git clone https://github.com/SwapnilHadage/Number_Guess_Game.git
 cd Number_Guess_Game
 
-2. Compile the Program
+### **2. Compile the Program**
 g++ noGuess.cpp -o noGuess
 
-
-3. Run the Game
+### **3. Run the Game**
 ./noGuess   # On Linux/macOS
 noGuess.exe # On Windows
 
-🎮 How to Play
+## 🎮 **How to Play**
 
 Enter your guess when prompted.
 
@@ -64,8 +63,8 @@ The game will tell you if your guess is too high, too low, or correct.
 
 Keep guessing until you find the correct number.
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
-Made with ❤️ by Swapnil Hadage
+## Made with ❤️ by Swapnil Hadage
