@@ -44,5 +44,5 @@ I built this project to **practice basic C++ concepts** such as:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/SwapnilHadage/Number-Guessing-Game.git
+git clone https://github.com/SwapnilHadage/Number_Guessing_Game.git
 cd number-guessing-game
