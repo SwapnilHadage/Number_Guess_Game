@@ -53,7 +53,7 @@ int main(){
 
 
 while(true){
-    cout<<"Enter Your Guess.. \n";
+    cout<<"Enter Your Guess: \n";
     while(true){
         cin>>input;
         if(cin.fail() or input<-2){
@@ -75,6 +75,7 @@ while(true){
         
     if(input==maxRange_num){
         cout<<"WOW! Matched!..After "<<attempt<<" Attempts..\n";
+        cout<<"Keep Playing..\n";
         attempt=0;
     }else{
         if(input>maxRange_num){
