@@ -45,7 +45,7 @@ int main(){
 
     cout<<"***Welcome!!!***\n"<<endl;
     maxRange_num=selectRange(gen);
-    cout<<"Enter -2 to Change Difficulty Mode or Enter -1 to Exit\n5";
+    cout<<"Enter -2 to Change Difficulty Mode or Enter -1 to Exit\n";
     if(maxRange_num==-1){
         cout<<"Bye..BYe..\n";
         return 0;
